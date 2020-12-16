@@ -20,6 +20,12 @@ public class Main {
 		for (Seller sel : list) {
 			System.out.println(sel);
 		}
+		
+		System.out.println("\n==== Test 3 findAll ====");
+		List<Seller> list2 = sellerDao.findAll();
+		for (Seller sel : list2) {
+			System.out.println(sel);
+		}
 	}
 
 }
